@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global iPhone Wholesale</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#000;
+    color:white;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(to right,#000,#333);
+    color:white;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#0071e3;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.products{
+    padding:60px 20px;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact{
+    background:white;
+    padding:60px 20px;
+}
+
+.contact h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0071e3;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>Global iPhone Wholesale</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Wholesale iPhones Worldwide</h1>
+    <p>Brand New & Used iPhones Available in Bulk Quantities.</p>
+
+    <a href="https://wa.me/971544441554" class="btn">
+        Order on WhatsApp
+    </a>
+</section>
+
+<section class="products" id="products">
+    <h2>Our Products</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x300" alt="">
+            <h3>iPhone 15 Pro Max</h3>
+            <p>Bulk orders available.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x300" alt="">
+            <h3>iPhone 14 Pro</h3>
+            <p>Worldwide shipping.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x300" alt="">
+            <h3>iPhone 13</h3>
+            <p>Competitive wholesale pricing.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea rows="5" placeholder="Message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p style="text-align:center;margin-top:20px;">
+        WhatsApp: +971 54 444 1554
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Global iPhone Wholesale. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
